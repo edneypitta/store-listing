@@ -1,0 +1,73 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/local/FARFETCH/edney.pitta/.nvm/versions/node/v6.15.1/bin/node',
+1 verbose cli   '/home/local/FARFETCH/edney.pitta/.nvm/versions/node/v6.15.1/bin/npm',
+1 verbose cli   'v' ]
+2 info using npm@3.10.10
+3 info using node@v6.15.1
+4 silly mapToRegistry name frontend-assignment-server
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'frontend-assignment-server',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'frontend-assignment-server',
+7 silly mapToRegistry   name: 'frontend-assignment-server',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/frontend-assignment-server
+9 verbose request uri https://registry.npmjs.org/frontend-assignment-server
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 8:43:06 PM
+12 verbose request id 3fefb28323ad39f7
+13 http request GET https://registry.npmjs.org/frontend-assignment-server
+14 http 404 https://registry.npmjs.org/frontend-assignment-server
+15 verbose headers { date: 'Fri, 01 Mar 2019 20:43:06 GMT',
+15 verbose headers   'content-type': 'application/json',
+15 verbose headers   'content-length': '21',
+15 verbose headers   connection: 'keep-alive',
+15 verbose headers   'set-cookie': [ '__cfduid=d4c10e37d358f995db3b5151e90143c3f1551472986; expires=Sat, 29-Feb-20 20:43:06 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+15 verbose headers   'cf-cache-status': 'MISS',
+15 verbose headers   'cache-control': 'max-age=300',
+15 verbose headers   'cf-ray': '4b0df61338656242-LIS',
+15 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+15 verbose headers   vary: 'accept-encoding, accept',
+15 verbose headers   server: 'cloudflare' }
+16 silly get cb [ 404,
+16 silly get   { date: 'Fri, 01 Mar 2019 20:43:06 GMT',
+16 silly get     'content-type': 'application/json',
+16 silly get     'content-length': '21',
+16 silly get     connection: 'keep-alive',
+16 silly get     'set-cookie': [ '__cfduid=d4c10e37d358f995db3b5151e90143c3f1551472986; expires=Sat, 29-Feb-20 20:43:06 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+16 silly get     'cf-cache-status': 'MISS',
+16 silly get     'cache-control': 'max-age=300',
+16 silly get     'cf-ray': '4b0df61338656242-LIS',
+16 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+16 silly get     vary: 'accept-encoding, accept',
+16 silly get     server: 'cloudflare' } ]
+17 verbose stack Error: Not found : frontend-assignment-server
+17 verbose stack     at makeError (/home/local/FARFETCH/edney.pitta/.nvm/versions/node/v6.15.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+17 verbose stack     at CachingRegistryClient.<anonymous> (/home/local/FARFETCH/edney.pitta/.nvm/versions/node/v6.15.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+17 verbose stack     at Request._callback (/home/local/FARFETCH/edney.pitta/.nvm/versions/node/v6.15.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+17 verbose stack     at Request.self.callback (/home/local/FARFETCH/edney.pitta/.nvm/versions/node/v6.15.1/lib/node_modules/npm/node_modules/request/request.js:187:22)
+17 verbose stack     at emitTwo (events.js:106:13)
+17 verbose stack     at Request.emit (events.js:191:7)
+17 verbose stack     at Request.<anonymous> (/home/local/FARFETCH/edney.pitta/.nvm/versions/node/v6.15.1/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+17 verbose stack     at emitOne (events.js:96:13)
+17 verbose stack     at Request.emit (events.js:188:7)
+17 verbose stack     at IncomingMessage.<anonymous> (/home/local/FARFETCH/edney.pitta/.nvm/versions/node/v6.15.1/lib/node_modules/npm/node_modules/request/request.js:969:12)
+18 verbose statusCode 404
+19 verbose pkgid frontend-assignment-server
+20 verbose cwd /home/local/FARFETCH/edney.pitta/source/glovo-assignment/server
+21 error Linux 4.15.0-45-generic
+22 error argv "/home/local/FARFETCH/edney.pitta/.nvm/versions/node/v6.15.1/bin/node" "/home/local/FARFETCH/edney.pitta/.nvm/versions/node/v6.15.1/bin/npm" "v"
+23 error node v6.15.1
+24 error npm  v3.10.10
+25 error code E404
+26 error 404 Not found : frontend-assignment-server
+27 error 404
+28 error 404 'frontend-assignment-server' is not in the npm registry.
+29 error 404 You should bug the author to publish it (or use the name yourself!)
+30 error 404 Note that you can also install from a
+31 error 404 tarball, folder, http url, or git url.
+32 verbose exit [ 1, true ]

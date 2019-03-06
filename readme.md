@@ -34,6 +34,12 @@ But beware, there are certain conditions:
 - You should be able to filter by tags
 
 
+Also:
+- This is a frontend assignment, put special attention to the UI/UX
+- People with poor 3G connection will use it
+- We want the app to be **SEO friendly**
+
+
 ## Tools
 There is no specific framework requirement. Feel free to use the tools that you are more comfortable with, but be sure to demonstrate that you know them.
 
@@ -48,3 +54,4 @@ Create a zip file and upload it using the submission link present in the e-mail 
 ## What we'll value
 - Clean, succinct code that works without bugs
 - Smart UI/UX decisions
+- Testing

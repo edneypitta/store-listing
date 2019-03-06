@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoresPage renders without crashing 1`] = `
+<div
+  class="stores"
+>
+  <div
+    class="store"
+  >
+    <h2 />
+    <p />
+    <span>
+      Unknown opening times
+    </span>
+    <div
+      class="tags"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+.App {
+  background-color: #ffc244;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App > header {
+  padding-top: 5vh;
+  min-height: 15vh;
+}
+
+.App > header img {
+  width: 200px;
+  height: auto;
+}
+
+.App main {
+  flex-grow: 2;
+}
+
+.App footer {
+  margin: 50px 0;
+}

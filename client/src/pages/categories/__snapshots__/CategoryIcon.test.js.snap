@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryIcon renders with open icon 1`] = `
+<div
+  class="icon"
+  title="Click to see stores"
+>
+  <img
+    alt="category icon"
+    src="openIcon"
+  />
+</div>
+`;
+
+exports[`CategoryIcon renders with sleep icon 1`] = `
+<div
+  class="icon"
+  title="Click to see stores"
+>
+  <img
+    alt="category icon"
+    src="sleepIcon"
+  />
+</div>
+`;
+
+exports[`CategoryIcon renders without crashing 1`] = `
+<div
+  class="icon"
+  title="Click to see stores"
+>
+  <img
+    alt="category icon"
+  />
+</div>
+`;

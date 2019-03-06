@@ -38,9 +38,9 @@ router.get('/stores', (ctx, next) => {
 })
 
 app
+  .use(cors())
   .use(serve(__dirname + '/public'))
   .use(router.routes())
-  .use(cors())
   .use(async ctx => {
     ctx.body = 'Hello World';
   });

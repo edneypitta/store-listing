@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Store renders without crashing 1`] = `
+<div
+  class="store"
+>
+  <h2 />
+  <p />
+  <span>
+    Unknown opening times
+  </span>
+  <div
+    class="tags"
+  >
+    <button
+      class=""
+      title="Click to filter by tag"
+      value="fat"
+    >
+      <span
+        class="undefined"
+      >
+        <span
+          style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em"
+        >
+          🍩
+        </span>
+      </span>
+      <span
+        class="tag-name"
+      >
+        fat
+      </span>
+    </button>
+  </div>
+</div>
+`;

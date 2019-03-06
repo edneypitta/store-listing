@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoriesPage renders without crashing 1`] = `
+<div
+  class="category-list"
+>
+  <div
+    class="category"
+  >
+    <a
+      class="link"
+      href="/stores?category=undefined"
+    >
+      <div
+        class="icon"
+        title="Click to see stores"
+      >
+        <img
+          alt="category icon"
+        />
+      </div>
+      <div
+        class="label"
+      />
+    </a>
+  </div>
+</div>
+`;
