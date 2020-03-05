@@ -1,57 +1,19 @@
-# Glovo Senior Frontend Engineer Challenge
+# store-listing
 
-We’d like to offer you a challenge to get a better understanding of your capabilities as a senior frontend engineer.
+React app to list stores returned by an api grouped by categories. 
+Opened stores are shown first and it's possible to filter by tags by clicking on them.
 
-We expect you to spend no more than a day on this task. To submit the results it’s enough to just share a GitHub link
-to a public repository with your solution or send the compressed project. You are expected to work on this task alone,
-without help or advice from others.
+## Notes
 
-If you have any issues with the assignment or require clarifications, please feel free to reach out to us.
+* This project uses React and was bootstrapped with Create React App
+* A Node.js app was built for Server Side Rendering
+* Code-splitting was also setup using `react-loadable`
+* Enzyme was used along with Jest for testing
 
-## Introduction
-You'll find in this project a server that has two endpoints:
+## Running the app locally
 
-### `/categories`
-Returns a list of categories that we support right now. Each category has a label, and two icons.
-
-### `/stores?category={name}`
-Returns a list of stores inside that category. Each store has:
-  - name
-  - description
-  - tags: Array of tags
-  - schedule: Array of days of the week (starting on Monday), with opening & closing times (local)
-
-
-## Assignment
-Your task is to create a simple application that will display to the user a list of categories (with icon). If the user enters in a category, he will be able to see all the stores from that category.
-
-But beware, there are certain conditions:
-
-- Open stores should display a message that says: "Open right now"
-- Closed stores should display a message that says: "Next opening time: [day of the week] at [hour]"
-- Closed stores should be displayed last
-- If all the stores of a category are closed, the category itself should be closed
-- You should be able to filter by tags
-
-
-Also:
-- This is a frontend assignment, put special attention to the UI/UX
-- People with poor 3G connection will use it
-- We want the app to be **SEO friendly**
-
-
-## Tools
-There is no specific framework requirement. Feel free to use the tools that you are more comfortable with, but be sure to demonstrate that you know them.
-
-Design decisions (UI/UX) are completely open and you can use CSS libraries.
-
-## Server
-Just clone this project and run `npm install && npm run serve` (or yarn). Server will be running on port 3000.
-
-## Delivery
-Create a zip file and upload it using the submission link present in the e-mail that had this project attached. Please make sure to include all your source files and your git folders with it.
-
-## What we'll value
-- Clean, succinct code that works without bugs
-- Smart UI/UX decisions
-- Testing
+* First go to `/server` and run `npm install && npm run server`
+* Now go to `/client` and run `npm install && npm run server`. 
+This will build the client code (using Create React App) and run the Node.js server that actually serves the content. 
+The app will be available at `http://localhost:3002/`
+* To run tests, please run `npm test` at `/client`
